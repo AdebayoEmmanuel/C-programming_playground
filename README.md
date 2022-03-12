@@ -22,7 +22,7 @@
 *emacs or vi a new file called betty, and copy the script below:
 
 
-`#!/bin/bash
+#!/bin/bash
 # Simply a wrapper script to keep you from having to use betty-style
 # and betty-doc separately on every item.
 # Originally by Tim Britton (@wintermanc3r), multiargument added by
@@ -41,7 +41,7 @@ for argument in "$@" ; do
     echo -e "\n========== $argument =========="
     ${BIN_PATH}/${BETTY_STYLE} "$argument"
     ${BIN_PATH}/${BETTY_DOC} "$argument"
-done`
+done
 
 
 
