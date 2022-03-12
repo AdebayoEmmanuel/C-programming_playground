@@ -52,7 +52,7 @@ done
 *Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
 
 
-*You can now type betty <filename> to run the Betty linter!
+*You can now type betty <<filename>> to run the Betty linter!
     
     
 *visit the betty wiki ==>> https://github.com/holbertonschool/Betty/wiki to learn about the betty coding style.
